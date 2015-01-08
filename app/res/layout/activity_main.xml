@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.healthwalk.MainActivity"
+    android:background="@drawable/background" >
+
+    <Button
+        android:id="@+id/buttonHelp"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Help" />
+
+    <Button
+        android:id="@+id/buttonLeve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonGrave"
+        android:layout_below="@+id/buttonNormal"
+        android:layout_marginTop="27dp"
+        android:text="Leve"
+        android:width="250dp" />
+
+    <Button
+        android:id="@+id/buttonGrave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Grave"
+        android:width="250dp" />
+
+    <Button
+        android:id="@+id/buttonMuyGrave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonGrave"
+        android:layout_alignLeft="@+id/buttonGrave"
+        android:layout_marginBottom="22dp"
+        android:text="Muy Grave"
+        android:width="250dp" />
+
+    <Button
+        android:id="@+id/buttonNormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonGrave"
+        android:layout_below="@+id/buttonGrave"
+        android:layout_marginTop="26dp"
+        android:text="Normal"
+        android:width="250dp" />
+
+    <Button
+        android:id="@+id/button4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Idioma" />
+
+</RelativeLayout>
