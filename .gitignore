@@ -32,5 +32,3 @@ proguard/
 .classpath
 .project
 lint.xml
-
-app/doc
