@@ -3,16 +3,13 @@
 
     <string name="app_name" >HealthWalk</string>
     <string name="map_activity">Карта на Медицински центрове</string>
-    <string name="sinDestinoMapa">Избери дестинация</string>
     <string name="ubicando">Локализиране&#8230;</string>
-    <string name="distanciaACentroSalud">Разстояние </string>
     <string name="ubicacionActual">Вие сте тук</string>
 	<string name="clickMarcador">Натиснете за да видите още</string>
 	<string name="rutaACentro">Път до медицинския център</string>
 	<string name="ruta">Път</string>
 	<string name="miUbicacion">Моето местоположение</string>
 	<string name="errorSinServicios">Google Services не са инсталирани на този апарат. Инсталирайте ги, ако е възможно.</string>
-	<string name="errorVersionServicios">Актуалната версия на Google Services не е съвместима с тази апликация. Обновете ако е възможно.</string>
 	
 	
     <string name="databaseError">Базата на данни не успя да зареди, някои местоположения може да липсват.</string>

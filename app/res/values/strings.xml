@@ -3,16 +3,13 @@
 
     <string name="app_name" tools:ignore="MissingTranslation">HealthWalk</string>
     <string name="map_activity">Map of health centers</string>
-    <string name="sinDestinoMapa">Select the destination</string>
     <string name="ubicando">Locating&#8230;</string>
-    <string name="distanciaACentroSalud">Distance: </string>
     <string name="ubicacionActual">You are here</string>
 	<string name="clickMarcador">Click to see more</string>
 	<string name="rutaACentro">Route to health center</string>
 	<string name="ruta">Route</string>
 	<string name="miUbicacion">My location</string>
 	<string name="errorSinServicios">Google Services are not installed on this device. Install, if possible.</string>
-	<string name="errorVersionServicios">The actual version of Google Services is not compatible with this app. Upgrade, if possible.</string>
 	
 	
     <string name="databaseError">The database could not be loaded, some localizations might be missing.</string>

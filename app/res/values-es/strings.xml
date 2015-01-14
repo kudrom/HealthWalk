@@ -3,9 +3,7 @@
 
     <string name="app_name">HealthWalk</string>
     <string name="map_activity">Mapa de centros de salud</string>
-	<string name="sinDestinoMapa">Seleccione el destino</string>
     <string name="ubicando">Ubicando&#8230;</string>
-    <string name="distanciaACentroSalud">Distancia: </string>
     <string name="ubicacionActual">Usted está aquí</string>
 	<string name="clickMarcador">Click para ver más</string>
 	<string name="rutaACentro">Ruta al centro de salud</string>

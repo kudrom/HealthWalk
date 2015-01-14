@@ -63,6 +63,13 @@ public class LocalizadorUsuario extends Service
     protected GoogleApiClient google_API_client;
 
     /**
+     * Constructor sin argumentos (no se usa, necesario para la correccion del codigo)
+     */
+    public LocalizadorUsuario(){
+    	mContext = getApplicationContext();
+    }
+    
+    /**
      * Constructor de la clase LocalizadorUsuario.
      * Se comprueba la validez de los servicios de Google del dispositivo y se inicializan
      * los atributos de la clase.

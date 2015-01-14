@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
     <PreferenceCategory android:title="@string/actualizaciones">
-        <EditTextPreference android:key="tiempo_minimo" android:inputType="number" android:digits="0123456789" android:title="@string/tiempo_minimo" android:defaultValue="1"/>
+        <EditTextPreference android:key="tiempo_minimo" android:inputType="number" android:digits="0123456789" android:title="@string/tiempo_minimo" android:defaultValue="1" android:summary="@string/tiempo_minimo_sum"/>
         <EditTextPreference android:summary="@string/distancia_minima_sum" android:inputType="number" android:digits="0123456789" android:title="@string/distancia_minima" android:defaultValue="10" android:key="distancia_minima"/>
         <ListPreference android:summary="@string/prioridad_sum" android:title="@string/prioridad" android:key="prioridad" android:entries="@array/prioridades" android:entryValues="@array/prioridades_valores" android:defaultValue="PRIORITY_BALANCED_POWER_ACCURACY"/>
     </PreferenceCategory>

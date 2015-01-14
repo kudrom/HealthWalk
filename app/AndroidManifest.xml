@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.asimov.healthwalk"
     android:versionCode="1"
-    android:versionName="1.1" >
+    android:versionName="1.2" >
 
     <uses-sdk
         android:minSdkVersion="16"
@@ -14,7 +14,6 @@
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <!-- Permisos recomendados -->
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="com.asimov.healthwalk.permission.MAPS_RECEIVE" />
     
@@ -34,10 +33,10 @@
             android:value="@integer/google_play_services_version" />
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyClZa-nq1zA8dqYvPuTGdqusVv1_Tcjdog"/>
+            android:value="AIzaSyBri273jnbsQEo2DbOhpHMk_Wys6mn8bJY"/>
         <activity
             android:name=".MapActivity"
-            android:label="@string/map_activity" >
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -52,6 +51,9 @@
             android:name=".PreferenciasActivity"
             android:label="@string/preferencias"
             android:parentActivityName=".MapActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.asimov.healthwalk.MapActivity" />
         </activity>
         <activity 
             android:name="HelpActivity"
@@ -63,7 +65,10 @@
             android:label="@string/acerca"
             android:parentActivityName=".MapActivity">
         </activity>
-
+		<service 
+		    android:enabled="true" 
+		    android:name=".LocalizadorUsuario" />
+        
     </application>
 
 </manifest>
